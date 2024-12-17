@@ -11,7 +11,7 @@ on:
         required: true
         default: ''
 env:
-  GITHUB_TOKEN: ${{ secrets.ORG_GITHUB_TOKEN }}
+  ORG_PERSONAL_ACCESS_TOKEN: ${{ secrets.ORG_PERSONAL_ACCESS_TOKEN }}
 jobs:
   test:
     runs-on: ubuntu-latest
